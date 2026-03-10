@@ -19,7 +19,7 @@ outputs:
 
 runs:
   using: "docker"
-  image: "docker://fribbledom/markscribe"
+  image: "Dockerfile"
   args:
     - "-write"
     - ${{ inputs.writeTo }}
